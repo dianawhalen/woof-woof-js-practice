@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   background: skyblue;
-
 }
 
 #good-dog-filter {
@@ -20,6 +19,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  overflow: auto;
 }
 
 #dog-bar span {
@@ -41,13 +42,23 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 #dog-info img {
   max-width: 75vw;
   max-height: 25vw;
+  border-radius: 15px;
 }
 
 body {
   margin: 0;
+}
+
+#filter-div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: lightgrey;
 }
